@@ -7,7 +7,7 @@ public:
         sort(nums.begin(),nums.end()); //sorting to identify the duplicates and push them
         vector<int>ans;
         int actualsum=(n*(n+1))/2;
-        int originalsum=nums[0];
+        int originalsum=nums[0]; //as I am starting the loop from nums[1] so original sum must contain nums[0] already in it to add the next array index sum but if it is 0 we will miss out nums[0] from my original sum
         int duplicate=-1;
        for(int i=1;i<n;i++)
         {
