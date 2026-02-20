@@ -17,7 +17,8 @@ public:
         vector<int>ans;
         for(int i=0;i<n;i++)
         {
-            int count=0;
+            int count=0; //this will reset the value of count for every i
+            
             for(int j=0;j<n;j++)
             {
                 if(i!=j && nums[i]>nums[j]){

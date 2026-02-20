@@ -1,6 +1,6 @@
 
 #include<bits/stdc++.h>
-using nmespace std;
+using namespace std;
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
